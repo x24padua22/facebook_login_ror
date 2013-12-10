@@ -1,0 +1,527 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:10:42 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (5.0ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:10:47 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied" for 127.0.0.1 at 2013-12-10 16:11:00 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"error"=>"access_denied", "error_code"=>"200", "error_description"=>"Permissions error", "error_reason"=>"user_denied"}
+Rendered home/callback.html.erb within layouts/home (22.0ms)
+Completed 500 Internal Server Error in 518ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__70605821_29389656'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:11:06 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:37:59 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:37:59 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/home/callback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied" for 127.0.0.1 at 2013-12-10 16:38:06 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"error"=>"access_denied", "error_code"=>"200", "error_description"=>"Permissions error", "error_reason"=>"user_denied"}
+Rendered home/callback.html.erb within layouts/home (3.0ms)
+Completed 500 Internal Server Error in 487ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__70605821_29389656'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:06 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:38:12 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:38:12 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:38:13 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:13 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/home/callback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied" for 127.0.0.1 at 2013-12-10 16:38:19 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"error"=>"access_denied", "error_code"=>"200", "error_description"=>"Permissions error", "error_reason"=>"user_denied"}
+Rendered home/callback.html.erb within layouts/home (1.0ms)
+Completed 500 Internal Server Error in 436ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__70605821_29389656'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:20 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:38:33 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (21.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:38:37 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:37 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQDDWA4bUj7b8LA8zhcSLwUjyWhASkS8bD-2N54fJt5ig9YVgN_6s58zKn-Yihl99e_acRs_H-U00ofz63FYXzjkhMC5GiF9ZHPAcuE-RO6nCSgVTfqea4czkFWrMcN96KTRJdlk_stORT5OX2BLZNqS-5OyIdL9yyWvGc2V_rmHwI1Uc0tCMLOQvf-SamDctORRv4H-XhCQ4d18yAwBHxXKU48z1h5ttcPIbTPuKkrvDP4JxbepiMa9XnTPeB3UC3pt4IAtKpiz2k3NDq9t0yKO3_s10K5If-vRZdFGl4dAmT2S5XT5rv6JuskKhRIjmzE" for 127.0.0.1 at 2013-12-10 16:38:49 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDDWA4bUj7b8LA8zhcSLwUjyWhASkS8bD-2N54fJt5ig9YVgN_6s58zKn-Yihl99e_acRs_H-U00ofz63FYXzjkhMC5GiF9ZHPAcuE-RO6nCSgVTfqea4czkFWrMcN96KTRJdlk_stORT5OX2BLZNqS-5OyIdL9yyWvGc2V_rmHwI1Uc0tCMLOQvf-SamDctORRv4H-XhCQ4d18yAwBHxXKU48z1h5ttcPIbTPuKkrvDP4JxbepiMa9XnTPeB3UC3pt4IAtKpiz2k3NDq9t0yKO3_s10K5If-vRZdFGl4dAmT2S5XT5rv6JuskKhRIjmzE"}
+Completed 500 Internal Server Error in 1404ms
+
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:38:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/home/callback?code=AQDDWA4bUj7b8LA8zhcSLwUjyWhASkS8bD-2N54fJt5ig9YVgN_6s58zKn-Yihl99e_acRs_H-U00ofz63FYXzjkhMC5GiF9ZHPAcuE-RO6nCSgVTfqea4czkFWrMcN96KTRJdlk_stORT5OX2BLZNqS-5OyIdL9yyWvGc2V_rmHwI1Uc0tCMLOQvf-SamDctORRv4H-XhCQ4d18yAwBHxXKU48z1h5ttcPIbTPuKkrvDP4JxbepiMa9XnTPeB3UC3pt4IAtKpiz2k3NDq9t0yKO3_s10K5If-vRZdFGl4dAmT2S5XT5rv6JuskKhRIjmzE" for 127.0.0.1 at 2013-12-10 16:42:53 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDDWA4bUj7b8LA8zhcSLwUjyWhASkS8bD-2N54fJt5ig9YVgN_6s58zKn-Yihl99e_acRs_H-U00ofz63FYXzjkhMC5GiF9ZHPAcuE-RO6nCSgVTfqea4czkFWrMcN96KTRJdlk_stORT5OX2BLZNqS-5OyIdL9yyWvGc2V_rmHwI1Uc0tCMLOQvf-SamDctORRv4H-XhCQ4d18yAwBHxXKU48z1h5ttcPIbTPuKkrvDP4JxbepiMa9XnTPeB3UC3pt4IAtKpiz2k3NDq9t0yKO3_s10K5If-vRZdFGl4dAmT2S5XT5rv6JuskKhRIjmzE"}
+Completed 500 Internal Server Error in 384ms
+
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:43:22 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (4.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:43:26 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:43:26 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQAzTRH-67y-AEaUiU39rRCa-prX5FDH5H4s9iRFmUuXjjn75yshlvqaqEAWZnDiR0eeWDwzmWI8-l9uj1Tyg-IDqbdBTWSms3GGHky1-E098PbCad5WQU7nbvsynxCjOMOd1a2Y4zryWYWUJ2vpc6B5tFWgmbbtB3h0qnH9yqpwARQY4BzOMFdjmfFopgc1wdaTL6S3iz0oGgRcdVuKQx0wrjjNjhPq7cWXz3yMNFDM6WLk2RCRE2On6ag_fUcGWrV0emdOGWQV7glM-8kltuXyanq3ZXnaFaV6EK6YcAnJuFwT2PwT-8C4K_JN1mr4FZ4" for 127.0.0.1 at 2013-12-10 16:43:28 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAzTRH-67y-AEaUiU39rRCa-prX5FDH5H4s9iRFmUuXjjn75yshlvqaqEAWZnDiR0eeWDwzmWI8-l9uj1Tyg-IDqbdBTWSms3GGHky1-E098PbCad5WQU7nbvsynxCjOMOd1a2Y4zryWYWUJ2vpc6B5tFWgmbbtB3h0qnH9yqpwARQY4BzOMFdjmfFopgc1wdaTL6S3iz0oGgRcdVuKQx0wrjjNjhPq7cWXz3yMNFDM6WLk2RCRE2On6ag_fUcGWrV0emdOGWQV7glM-8kltuXyanq3ZXnaFaV6EK6YcAnJuFwT2PwT-8C4K_JN1mr4FZ4"}
+Completed 500 Internal Server Error in 395ms
+
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:43:28 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQAzTRH-67y-AEaUiU39rRCa-prX5FDH5H4s9iRFmUuXjjn75yshlvqaqEAWZnDiR0eeWDwzmWI8-l9uj1Tyg-IDqbdBTWSms3GGHky1-E098PbCad5WQU7nbvsynxCjOMOd1a2Y4zryWYWUJ2vpc6B5tFWgmbbtB3h0qnH9yqpwARQY4BzOMFdjmfFopgc1wdaTL6S3iz0oGgRcdVuKQx0wrjjNjhPq7cWXz3yMNFDM6WLk2RCRE2On6ag_fUcGWrV0emdOGWQV7glM-8kltuXyanq3ZXnaFaV6EK6YcAnJuFwT2PwT-8C4K_JN1mr4FZ4" for 127.0.0.1 at 2013-12-10 16:43:46 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAzTRH-67y-AEaUiU39rRCa-prX5FDH5H4s9iRFmUuXjjn75yshlvqaqEAWZnDiR0eeWDwzmWI8-l9uj1Tyg-IDqbdBTWSms3GGHky1-E098PbCad5WQU7nbvsynxCjOMOd1a2Y4zryWYWUJ2vpc6B5tFWgmbbtB3h0qnH9yqpwARQY4BzOMFdjmfFopgc1wdaTL6S3iz0oGgRcdVuKQx0wrjjNjhPq7cWXz3yMNFDM6WLk2RCRE2On6ag_fUcGWrV0emdOGWQV7glM-8kltuXyanq3ZXnaFaV6EK6YcAnJuFwT2PwT-8C4K_JN1mr4FZ4"}
+Completed 500 Internal Server Error in 4390ms
+
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:44:01 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (4.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:44:05 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQADq3wKpFlfG2vqmmcvmWhldk_5oeyBlxNvCJC7B5h3M036IZ9CJ7LpJxKiSyHMe9pfkDAO9LRQIlPXc0fjynjkVdQBe_k7ILxD8e31FxkLyLOZWUGYv02V7caJE0RxJOt4wgq6cbkGPUqSgDf2oE9jIJKvZmrO29y5XAO5krf1eT6cLcM0ZAIz3x8jbEkLthZuwbRHKFq6Pc7v6YZv9ssS7bcq0gvW2N67ksIHXi6jgataLsnKjJXreDkRAbgJ-moYwiXMxrgdKx37TNzJ2T6LAz-dAeCK90kC0GaqLw5P95rXuZKC8BAaCL7gh4xUIX0" for 127.0.0.1 at 2013-12-10 16:44:07 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQADq3wKpFlfG2vqmmcvmWhldk_5oeyBlxNvCJC7B5h3M036IZ9CJ7LpJxKiSyHMe9pfkDAO9LRQIlPXc0fjynjkVdQBe_k7ILxD8e31FxkLyLOZWUGYv02V7caJE0RxJOt4wgq6cbkGPUqSgDf2oE9jIJKvZmrO29y5XAO5krf1eT6cLcM0ZAIz3x8jbEkLthZuwbRHKFq6Pc7v6YZv9ssS7bcq0gvW2N67ksIHXi6jgataLsnKjJXreDkRAbgJ-moYwiXMxrgdKx37TNzJ2T6LAz-dAeCK90kC0GaqLw5P95rXuZKC8BAaCL7gh4xUIX0"}
+Rendered home/callback.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 2101ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:44:09 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:50:06 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBPBjCVVOYQgwIfBlUG2eL8OUut6iZwQISJAexGni7OLOYtnuASc6zYh75wY5Qy2H1Yuikwcdxs0q93FNhahaeuhpJUmam9tp7UqOXj6j8ISyHKVgMl1BPWOtTQs5tGoE6oNQJtF7dKMdHHsIFcrS9EyWdSTHI-oWWKkRzMuDu56wadfU8f-1bn4P14KaM0MdECa9O__6ZQZOwHcU6nl8gU56WL8X14UtAzD-F8kBpWO-Hcp-k_NAdy6T0JjD_K7owLm57tmBW8MqC0OsYzU9Vkeui7KqTw_UzhTR2jZ6mQSPqJyUECR_euq2FOxqPxo98" for 127.0.0.1 at 2013-12-10 16:50:09 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBPBjCVVOYQgwIfBlUG2eL8OUut6iZwQISJAexGni7OLOYtnuASc6zYh75wY5Qy2H1Yuikwcdxs0q93FNhahaeuhpJUmam9tp7UqOXj6j8ISyHKVgMl1BPWOtTQs5tGoE6oNQJtF7dKMdHHsIFcrS9EyWdSTHI-oWWKkRzMuDu56wadfU8f-1bn4P14KaM0MdECa9O__6ZQZOwHcU6nl8gU56WL8X14UtAzD-F8kBpWO-Hcp-k_NAdy6T0JjD_K7owLm57tmBW8MqC0OsYzU9Vkeui7KqTw_UzhTR2jZ6mQSPqJyUECR_euq2FOxqPxo98"}
+Completed 200 OK in 14941ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:50:24 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:50:24 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/home/callback?code=AQAAxCT1rkJQga3s4X-3P0_KBPmhykCYlttg4ZffNVEU8Wd43-3ySmNq2JiYeJyOvUwzIJK-H1AzXnUonkSoZ9_Kw0hFLF-L8xVCkIkqZDCiLvCtX9I7b3UFv4OHi7Iiivqp6ZGY34_jagTj8cnSST6IWVRc_sWSxwMFsln8BYt60SW05J_jhdExpdHqIb7SHOoAx6pgi4NdKbrTZLOQU4VqH5QbHdfcSaz2VCzOdGNcNQz9UkA9MzfwKbqZltCu2T6Sc29gAl_QxRm6dpfRBmxjwxGGHJ1CUtoenRuYBSE1l39t7GqkZotq8wExCHm_mx8" for 127.0.0.1 at 2013-12-10 16:50:41 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAAxCT1rkJQga3s4X-3P0_KBPmhykCYlttg4ZffNVEU8Wd43-3ySmNq2JiYeJyOvUwzIJK-H1AzXnUonkSoZ9_Kw0hFLF-L8xVCkIkqZDCiLvCtX9I7b3UFv4OHi7Iiivqp6ZGY34_jagTj8cnSST6IWVRc_sWSxwMFsln8BYt60SW05J_jhdExpdHqIb7SHOoAx6pgi4NdKbrTZLOQU4VqH5QbHdfcSaz2VCzOdGNcNQz9UkA9MzfwKbqZltCu2T6Sc29gAl_QxRm6dpfRBmxjwxGGHJ1CUtoenRuYBSE1l39t7GqkZotq8wExCHm_mx8"}
+Completed 200 OK in 2756ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:50:43 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQAAxCT1rkJQga3s4X-3P0_KBPmhykCYlttg4ZffNVEU8Wd43-3ySmNq2JiYeJyOvUwzIJK-H1AzXnUonkSoZ9_Kw0hFLF-L8xVCkIkqZDCiLvCtX9I7b3UFv4OHi7Iiivqp6ZGY34_jagTj8cnSST6IWVRc_sWSxwMFsln8BYt60SW05J_jhdExpdHqIb7SHOoAx6pgi4NdKbrTZLOQU4VqH5QbHdfcSaz2VCzOdGNcNQz9UkA9MzfwKbqZltCu2T6Sc29gAl_QxRm6dpfRBmxjwxGGHJ1CUtoenRuYBSE1l39t7GqkZotq8wExCHm_mx8" for 127.0.0.1 at 2013-12-10 16:51:30 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAAxCT1rkJQga3s4X-3P0_KBPmhykCYlttg4ZffNVEU8Wd43-3ySmNq2JiYeJyOvUwzIJK-H1AzXnUonkSoZ9_Kw0hFLF-L8xVCkIkqZDCiLvCtX9I7b3UFv4OHi7Iiivqp6ZGY34_jagTj8cnSST6IWVRc_sWSxwMFsln8BYt60SW05J_jhdExpdHqIb7SHOoAx6pgi4NdKbrTZLOQU4VqH5QbHdfcSaz2VCzOdGNcNQz9UkA9MzfwKbqZltCu2T6Sc29gAl_QxRm6dpfRBmxjwxGGHJ1CUtoenRuYBSE1l39t7GqkZotq8wExCHm_mx8"}
+Completed 500 Internal Server Error in 840ms
+
+Koala::Facebook::APIError (OAuthException: This authorization code has been used.):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:51:41 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:51:41 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:51:41 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:51:41 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/home/callback?code=AQCAoELyudTlkDZ8OXquhzFxsQPmcAUu1y4EK2-MBqKqVQU8J3llmMSxa6DDTmbSdip_YoBbwLODrKwh06EcXc06EpE81kjhhSZhk73vehaxoPyLxFPc24GD8KxXMwg0VGGTi8pfWbKAK-TDb5uZGlQNICdVpmXJ4fTjrRfoY6Xn1IpYTe5TOJX2aanxma9o8S-kuPyYTTQRpPfWbkzbKqR9i-c4BcUhUUdJnCvyu80PfWMWwUEOlXOtN0SNoabVvBCli9a2RI0zfRoBblPTxwYNSvz0KaX_7v77GPcGqb_eEa0OxZLpZ2VHAMqiWB744Bs" for 127.0.0.1 at 2013-12-10 16:51:43 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCAoELyudTlkDZ8OXquhzFxsQPmcAUu1y4EK2-MBqKqVQU8J3llmMSxa6DDTmbSdip_YoBbwLODrKwh06EcXc06EpE81kjhhSZhk73vehaxoPyLxFPc24GD8KxXMwg0VGGTi8pfWbKAK-TDb5uZGlQNICdVpmXJ4fTjrRfoY6Xn1IpYTe5TOJX2aanxma9o8S-kuPyYTTQRpPfWbkzbKqR9i-c4BcUhUUdJnCvyu80PfWMWwUEOlXOtN0SNoabVvBCli9a2RI0zfRoBblPTxwYNSvz0KaX_7v77GPcGqb_eEa0OxZLpZ2VHAMqiWB744Bs"}
+Completed 500 Internal Server Error in 12003ms
+
+SocketError (getaddrinfo: No such host is known. ):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:51:55 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQCAoELyudTlkDZ8OXquhzFxsQPmcAUu1y4EK2-MBqKqVQU8J3llmMSxa6DDTmbSdip_YoBbwLODrKwh06EcXc06EpE81kjhhSZhk73vehaxoPyLxFPc24GD8KxXMwg0VGGTi8pfWbKAK-TDb5uZGlQNICdVpmXJ4fTjrRfoY6Xn1IpYTe5TOJX2aanxma9o8S-kuPyYTTQRpPfWbkzbKqR9i-c4BcUhUUdJnCvyu80PfWMWwUEOlXOtN0SNoabVvBCli9a2RI0zfRoBblPTxwYNSvz0KaX_7v77GPcGqb_eEa0OxZLpZ2VHAMqiWB744Bs" for 127.0.0.1 at 2013-12-10 16:52:24 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCAoELyudTlkDZ8OXquhzFxsQPmcAUu1y4EK2-MBqKqVQU8J3llmMSxa6DDTmbSdip_YoBbwLODrKwh06EcXc06EpE81kjhhSZhk73vehaxoPyLxFPc24GD8KxXMwg0VGGTi8pfWbKAK-TDb5uZGlQNICdVpmXJ4fTjrRfoY6Xn1IpYTe5TOJX2aanxma9o8S-kuPyYTTQRpPfWbkzbKqR9i-c4BcUhUUdJnCvyu80PfWMWwUEOlXOtN0SNoabVvBCli9a2RI0zfRoBblPTxwYNSvz0KaX_7v77GPcGqb_eEa0OxZLpZ2VHAMqiWB744Bs"}
+Completed 200 OK in 5365ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:53:11 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:53:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:53:16 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQDBfES-LtiFaLGr-sye55hIhHzgHiBrecjtr1dTSVxgCz8bQEEvQaOrDJ77SjNpkkAqEPe-ogHM12F00xeWJ47oImTnLx-AevmBSmcbPVcXPW1FObfQDE-gIEnuG8qHAiBzsRxthtwbCMBS4oE1rG57bSujTuvamZp78T_nlKNJSY_nYLbg1k222BC7ZD6ZQJeaaJKqK69emK5eWnbod8814BsICST2ThJsRxTEDEG2ijbvQiSj9dAs7h6NdV36Iu7SX0YHM0EGRnrzb6TMGhc7zz8R_d6feHkUQcHvCGIWmldcXcB3-6n_kph-IXr1WhA" for 127.0.0.1 at 2013-12-10 16:53:56 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDBfES-LtiFaLGr-sye55hIhHzgHiBrecjtr1dTSVxgCz8bQEEvQaOrDJ77SjNpkkAqEPe-ogHM12F00xeWJ47oImTnLx-AevmBSmcbPVcXPW1FObfQDE-gIEnuG8qHAiBzsRxthtwbCMBS4oE1rG57bSujTuvamZp78T_nlKNJSY_nYLbg1k222BC7ZD6ZQJeaaJKqK69emK5eWnbod8814BsICST2ThJsRxTEDEG2ijbvQiSj9dAs7h6NdV36Iu7SX0YHM0EGRnrzb6TMGhc7zz8R_d6feHkUQcHvCGIWmldcXcB3-6n_kph-IXr1WhA"}
+Rendered home/callback.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 2879ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:53:59 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 16:59:20 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 30ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:59:20 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:59:21 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQDjlvrhfvOdclIxpxy_agRFXzjqyMXcLyBtwq-PGqu8aGE5vxKFIVnYOgxwXMm5hXW2F1SOx_b_IpU7DFJFTnkeTH9HPJ2y0ZeO91gkajmkUhkU5QqGOK2g2xlT3XFjQNN-CUAHp2efMBqA7sK5VbTBJr_nbtstFmhwGPtTJNe4CJVqx7AHGgp18sNIYiXuYJuhsudBZV5Uh1Hm5pXB9OvngLUtMwGI_h8mFqN4NqxrUZi--_pkc3mGfL9GlU9eX33rluaNLd-_G33_pO_hjPxNVjQMtVuEP4FMyD_uEKK0B2LW-zWVUH6rj0gGg8eJk2Q" for 127.0.0.1 at 2013-12-10 16:59:50 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDjlvrhfvOdclIxpxy_agRFXzjqyMXcLyBtwq-PGqu8aGE5vxKFIVnYOgxwXMm5hXW2F1SOx_b_IpU7DFJFTnkeTH9HPJ2y0ZeO91gkajmkUhkU5QqGOK2g2xlT3XFjQNN-CUAHp2efMBqA7sK5VbTBJr_nbtstFmhwGPtTJNe4CJVqx7AHGgp18sNIYiXuYJuhsudBZV5Uh1Hm5pXB9OvngLUtMwGI_h8mFqN4NqxrUZi--_pkc3mGfL9GlU9eX33rluaNLd-_G33_pO_hjPxNVjQMtVuEP4FMyD_uEKK0B2LW-zWVUH6rj0gGg8eJk2Q"}
+Rendered home/callback.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 1752ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 16:59:52 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/home/callback?code=AQDjlvrhfvOdclIxpxy_agRFXzjqyMXcLyBtwq-PGqu8aGE5vxKFIVnYOgxwXMm5hXW2F1SOx_b_IpU7DFJFTnkeTH9HPJ2y0ZeO91gkajmkUhkU5QqGOK2g2xlT3XFjQNN-CUAHp2efMBqA7sK5VbTBJr_nbtstFmhwGPtTJNe4CJVqx7AHGgp18sNIYiXuYJuhsudBZV5Uh1Hm5pXB9OvngLUtMwGI_h8mFqN4NqxrUZi--_pkc3mGfL9GlU9eX33rluaNLd-_G33_pO_hjPxNVjQMtVuEP4FMyD_uEKK0B2LW-zWVUH6rj0gGg8eJk2Q" for 127.0.0.1 at 2013-12-10 17:00:11 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDjlvrhfvOdclIxpxy_agRFXzjqyMXcLyBtwq-PGqu8aGE5vxKFIVnYOgxwXMm5hXW2F1SOx_b_IpU7DFJFTnkeTH9HPJ2y0ZeO91gkajmkUhkU5QqGOK2g2xlT3XFjQNN-CUAHp2efMBqA7sK5VbTBJr_nbtstFmhwGPtTJNe4CJVqx7AHGgp18sNIYiXuYJuhsudBZV5Uh1Hm5pXB9OvngLUtMwGI_h8mFqN4NqxrUZi--_pkc3mGfL9GlU9eX33rluaNLd-_G33_pO_hjPxNVjQMtVuEP4FMyD_uEKK0B2LW-zWVUH6rj0gGg8eJk2Q"}
+Completed 500 Internal Server Error in 862ms
+
+Koala::Facebook::APIError (OAuthException: This authorization code has been used.):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 17:00:21 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 17:00:22 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 17:00:22 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/callback?code=AQBMbI-uplFixPW9GrvyJ4iyZJtsdy7ECD06tw4yqGTndz40XzDbXNtxoPN-EYzGBdUITDBCb6a43EXvjVoHZc3CdIaFrsmInm3PHSDxTjKu9GYTtKSERxBQj4MadCxdtjcSOMZ_dRlkFpOsq_gR1GKlCxVGhxjwW_K6QM9Etkf9lS3cHqDeBqU5IPBIIjnQI_1yu69xQo82caBAUa3r-aNLZt0AwsIup71jYl-7e_PtbSGpsD3G-HNarW6CGWKfS9_xfv_o34k1Y1wtZb1hj0fFmKZoidvkUumThwv7vtQFSEwPC9XeDEBL11wz9uk0r6A" for 127.0.0.1 at 2013-12-10 17:00:41 +0800
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBMbI-uplFixPW9GrvyJ4iyZJtsdy7ECD06tw4yqGTndz40XzDbXNtxoPN-EYzGBdUITDBCb6a43EXvjVoHZc3CdIaFrsmInm3PHSDxTjKu9GYTtKSERxBQj4MadCxdtjcSOMZ_dRlkFpOsq_gR1GKlCxVGhxjwW_K6QM9Etkf9lS3cHqDeBqU5IPBIIjnQI_1yu69xQo82caBAUa3r-aNLZt0AwsIup71jYl-7e_PtbSGpsD3G-HNarW6CGWKfS9_xfv_o34k1Y1wtZb1hj0fFmKZoidvkUumThwv7vtQFSEwPC9XeDEBL11wz9uk0r6A"}
+Completed 200 OK in 7956ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-12-10 17:00:49 +0800
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
