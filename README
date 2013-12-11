@@ -1,12 +1,19 @@
-Koala Rails Sample App
-by Anna Billstrom
+Here is a sample code for Facebook Login in Ruby on Rails
 
-Feb 26, 2012 - updated the app name all over from KoalaTest to SampleKoalaRailsApp (thanks George K for the note). Sorry about that- KoalaTest was my original app name.
+You may watch a video tutorial in this link: https://www.youtube.com/watch?v=UlHCOEzd6R8
 
-A sample app to show the Facebook API Koala's connectivity and session management. 
-I put this together in response to various requests on my blog post, http://www.banane.com/2011/10/13/ruby-on-rails-and-facebook-api-koala-basic-example/
+Here are the useful links in the video:
 
-I'm using a sample application id - please insert your own before running or testing.
+	Downloaded tutorial: https://github.com/banane/sample-koala-rails-app
+	SSL Fix: http://stackoverflow.com/questions/11703679/opensslsslsslerror-on-heroku
+	Koala gem link : https://github.com/arsduo/koala
 
-Contact me at banane-at-gmail.com with questions, etc.
-.
+	
+	
+
+This was originally created by Anna Billstrom
+
+Visit her links in 
+	http://www.banane.com/2012/01/22/sample-koala-facebook-ruby-on-rails-app/
+	https://github.com/banane/sample-koala-rails-app
+
